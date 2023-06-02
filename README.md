@@ -4,4 +4,4 @@ Card Generator is a tool designed to help users generate a customizable business
 
 Visit: https://mrgiann.github.io/Card-generator/
 
-![image](https://github.com/mrgiann/Card-generator/assets/82038942/86cc87c3-bc54-47f0-9010-df33dad7b0f0)
+![image](https://github.com/mrgiann/Card-generator/assets/82038942/4384ecce-5d0c-425a-9d2d-70535ab9ea11)
