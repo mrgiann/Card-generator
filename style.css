@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #292929;
+    color: white;
+    font-family: sans-serif;
+}
+
+input {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+input#color , #text-color{
+    width: 182px;
+    padding: 0;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.contenido {
+    text-align: center;
+}
+
+
+
+
+
+.tarjeta-generada {
+  display:flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: auto;
+  width: 500px;
+  height: 210px;
+  background-color: #000000;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.tarjeta1{
+width:30%;
+height:50%;
+}
+.tarjeta2{
+width:70%;
+}
+.tarjeta3{
+ width:100%;
+ display: flex;
+ justify-content: space-between;
+}
+.tarjeta3 .izquierda{
+
+margin-top:70px;
+display:flex;
+justify-content:flex-start;
+}
+.tarjeta3 .derecha{
+margin-top:70px;
+display:flex;
+justify-content:flex-end;
+}
+
+.tarjeta-generada h2, p{
+    color: #ffffff;
+}
+
+.logo {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #3E8E41;
+}
+
+
+button:active {
+    transform: scale(0.9);
+    box-shadow: none;
+}
+
+#download {
+    background-color: #3498db;
+    border-radius: 25px;
+}
+
+
+#download:hover {
+    transform: scale(1.1);
+    background-color: #2980b9;
+}
+
+
+#download:active {
+    transform: scale(0.9);
+    box-shadow: none;
+}
